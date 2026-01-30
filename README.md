@@ -64,11 +64,28 @@ This repository follows a phase-based learning path for mastering Data Structure
 
 ### 🔹 Phase 0: Foundations
 
-- [ ] Big O Notation
-- [ ] Time Complexity
+**Core Concepts:**
+- [ ] Big O Notation & Time Complexity
 - [ ] Space Complexity
+- [ ] Algorithm Design Strategies
+- [ ] Problem-Solving Framework
+- [ ] Recursion Fundamentals
+- [ ] Code Optimization Techniques
+- [ ] Debugging & Testing Strategies
 
-📄 Reference: [notes/time-complexity.md](notes/time-complexity.md)
+**📚 Comprehensive Notes Available:**
+- [Introduction to Phase 0](phase-0-foundations/notes/introduction.md) - Overview and study guide
+- [Big O Guide](phase-0-foundations/notes/big-o-guide.md) - Complete complexity analysis with examples
+- [Time Complexity](phase-0-foundations/notes/time-complexity.md) - Quick reference
+- [Recursion Basics](phase-0-foundations/notes/recursion-basics.md) - Master recursive thinking
+- [Problem-Solving Approach](phase-0-foundations/notes/problem-solving-approach.md) - 5-step framework
+- [Algorithm Design Strategies](phase-0-foundations/notes/algorithm-design-strategies.md) - 8 fundamental strategies
+- [Code Optimization Techniques](phase-0-foundations/notes/code-optimization-techniques.md) - 12 optimization patterns
+- [Debugging & Testing](phase-0-foundations/notes/debugging-and-testing.md) - Bug finding strategies
+- [Patterns](phase-0-foundations/notes/patterns.md) - 15 common patterns
+- [Data Structures Cheatsheet](phase-0-foundations/notes/data-structures-cheatsheet.md) - Quick reference
+
+**💡 Start here if you're new to DSA!** These foundations will make everything else easier.
 
 ---
 
@@ -172,21 +189,27 @@ The goal of this repository is to build a deep understanding of Data Structures 
 
 - **When** to use each structure
 - **Why** one algorithm is better than another
+- **How** to solve problems systematically
 - Writing clean, efficient, and scalable solutions
 
 **This project is suitable for:**
-- ✅ Interview preparation
-- ✅ Academic learning
-- ✅ Self-study and revision
+- ✅ Interview preparation (FAANG & technical interviews)
+- ✅ Academic learning and coursework
+- ✅ Self-study and skill development
+- ✅ Building a strong portfolio for recruiters
 
 ---
 
-## ⭐ Why This README Stands Out
+## ⭐ Why This Repository Stands Out
 
-- ✨ Clear learning progression
-- ✨ Beginner-friendly structure
-- ✨ Self-tracking via checklists
-- ✨ Strong portfolio signal for recruiters
+- ✨ **Phase-based learning progression** - Structured path from basics to advanced
+- ✨ **Comprehensive notes** - 10+ detailed guides covering fundamentals
+- ✨ **Multiple languages** - JavaScript, Python, C# implementations
+- ✨ **Beginner-friendly** - Clear explanations with code examples
+- ✨ **Self-tracking** - Checklists to monitor your progress
+- ✨ **Interview-ready** - Covers patterns and techniques for coding interviews
+- ✨ **Problem-solving focus** - Not just code, but how to think about problems
+- ✨ **Strong portfolio signal** - Shows systematic learning and dedication
 
 ---
 
@@ -197,7 +220,14 @@ data-structures-and-algorithms/
 │
 ├── phase-0-foundations/
 │   └── notes/
+│       ├── introduction.md
+│       ├── big-o-guide.md
 │       ├── time-complexity.md
+│       ├── recursion-basics.md
+│       ├── problem-solving-approach.md
+│       ├── algorithm-design-strategies.md
+│       ├── code-optimization-techniques.md
+│       ├── debugging-and-testing.md
 │       ├── patterns.md
 │       └── data-structures-cheatsheet.md
 │
