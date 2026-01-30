@@ -100,6 +100,14 @@ This repository follows a phase-based learning path for mastering Data Structure
 - Memory layout
 - Insertions & deletions
 - LIFO & FIFO behavior
+- Common patterns (two pointers, sliding window)
+
+**📚 Comprehensive Guides:**
+- [Phase 1 Introduction](phase-1-linear-data-structures/notes/introduction.md) - Overview and learning path
+- [Arrays Guide](phase-1-linear-data-structures/notes/arrays-guide.md) - Complete arrays reference with patterns
+- [Linked Lists Guide](phase-1-linear-data-structures/notes/linked-lists-guide.md) - All linked list operations
+- [Stacks Guide](phase-1-linear-data-structures/notes/stacks-guide.md) - Stack patterns and applications
+- [Queues Guide](phase-1-linear-data-structures/notes/queues-guide.md) - Queue variations and BFS
 
 ---
 
@@ -112,6 +120,10 @@ This repository follows a phase-based learning path for mastering Data Structure
   - [ ] Pre-order
   - [ ] In-order
   - [ ] Post-order
+  - [ ] Level-order (BFS)
+
+**📚 Comprehensive Guides:**
+- [Phase 2 Introduction](phase-2-trees/notes/introduction.md) - Trees overview and study roadmap
 
 ---
 
@@ -126,6 +138,9 @@ This repository follows a phase-based learning path for mastering Data Structure
   - [ ] Difference
   - [ ] Symmetric Difference
 
+**📚 Comprehensive Guides:**
+- [Phase 3 Introduction](phase-3-hashing-sets/notes/introduction.md) - Hashing fundamentals and patterns
+
 ---
 
 ### 🔹 Phase 4: Core Algorithms
@@ -133,6 +148,7 @@ This repository follows a phase-based learning path for mastering Data Structure
 **Searching**
 - [ ] Linear Search
 - [ ] Binary Search (JavaScript, Python, C Sharp)
+- [ ] Binary Search Variations
 
 **Sorting**
 - [ ] Bubble Sort
@@ -141,45 +157,72 @@ This repository follows a phase-based learning path for mastering Data Structure
 - [ ] Merge Sort
 - [ ] Quick Sort
 
+**📚 Comprehensive Guides:**
+- [Phase 4 Introduction](phase-4-core-algorithms/notes/introduction.md) - Searching and sorting algorithms
+
 ---
 
 ### 🔹 Phase 5: Recursion & Problem-Solving Patterns
 
-- [ ] Recursion fundamentals
+- [ ] Advanced Recursion
 - [ ] Divide and Conquer
 - [ ] Two Pointers
 - [ ] Sliding Window
 - [ ] Greedy Algorithms
+- [ ] Backtracking
 
-📄 Reference: [notes/patterns.md](notes/patterns.md)
+**📚 Comprehensive Guides:**
+- [Phase 5 Introduction](phase-5-recursion-patterns/notes/introduction.md) - Advanced patterns and techniques
+- Also see: [Patterns Guide](phase-0-foundations/notes/patterns.md) - 15 common patterns
 
 ---
 
 ### 🔹 Phase 6: Dynamic Programming
 
-- [ ] Memoization
-- [ ] Tabulation
-- [ ] Classic DP problems (Fibonacci, Coin Change, Knapsack)
+- [ ] DP Fundamentals (Optimal Substructure, Overlapping Subproblems)
+- [ ] Memoization (Top-Down)
+- [ ] Tabulation (Bottom-Up)
+- [ ] 1D DP Problems
+- [ ] 2D DP Problems
+- [ ] Classic DP (Fibonacci, Coin Change, Knapsack, LCS)
+
+**📚 Comprehensive Guides:**
+- [Phase 6 Introduction](phase-6-dynamic-programming/notes/introduction.md) - Complete DP guide and patterns
 
 ---
 
-### 🔹 Phase 7: Graphs (Coming Soon)
+### 🔹 Phase 7: Graphs
 
-- [ ] Graph Representation
+- [ ] Graph Fundamentals (Directed, Undirected, Weighted)
+- [ ] Graph Representations (Adjacency Matrix, Adjacency List)
 - [ ] Breadth-First Search (BFS)
 - [ ] Depth-First Search (DFS)
-- [ ] Real-world graph applications
+- [ ] Topological Sort
+- [ ] Shortest Path Algorithms (Dijkstra, Bellman-Ford)
+- [ ] Minimum Spanning Tree (Kruskal, Prim)
+- [ ] Union-Find (Disjoint Set)
+
+**📚 Comprehensive Guides:**
+- [Phase 7 Introduction](phase-7-graphs/notes/introduction.md) - Graph algorithms and applications
 
 ---
 
 ### 🔹 Phase 8: Practice & Problem Solving
 
-- [ ] LeetCode Problems
-- [ ] HackerRank Problems
+- [ ] LeetCode Problems (Easy, Medium, Hard)
+- [ ] HackerRank Challenges
 - [ ] Custom Algorithm Challenges
+- [ ] Mock Interviews
+- [ ] Company-Specific Problem Sets
 
-**💡 Recommended workflow:**
-Learn a concept → Implement it → Solve 5–10 problems
+**💡 Recommended Practice:**
+- Learn a concept → Implement it → Solve 15-20 problems
+- Daily practice: 1-2 problems minimum
+- Review and optimize solutions
+- Track progress and patterns
+
+**📚 Comprehensive Guides:**
+- [Phase 8 Introduction](phase-8-practice-problems/notes/introduction.md) - Practice strategy and problem-solving guide
 
 ---
 
@@ -202,13 +245,15 @@ The goal of this repository is to build a deep understanding of Data Structures 
 
 ## ⭐ Why This Repository Stands Out
 
-- ✨ **Phase-based learning progression** - Structured path from basics to advanced
-- ✨ **Comprehensive notes** - 10+ detailed guides covering fundamentals
+- ✨ **Phase-based learning progression** - Structured 8-phase path from basics to advanced
+- ✨ **Comprehensive notes** - 20+ detailed guides with examples and patterns
+- ✨ **Complete coverage** - Every phase has introduction guides and study roadmaps
 - ✨ **Multiple languages** - JavaScript, Python, C# implementations
-- ✨ **Beginner-friendly** - Clear explanations with code examples
-- ✨ **Self-tracking** - Checklists to monitor your progress
-- ✨ **Interview-ready** - Covers patterns and techniques for coding interviews
-- ✨ **Problem-solving focus** - Not just code, but how to think about problems
+- ✨ **Beginner-friendly** - Clear explanations with code examples and visualizations
+- ✨ **Self-tracking** - Checklists to monitor your progress through all phases
+- ✨ **Interview-ready** - Covers all patterns and techniques for FAANG interviews
+- ✨ **Problem-solving focus** - Not just code, but systematic thinking frameworks
+- ✨ **Practice strategies** - Detailed guides for each phase with problem counts
 - ✨ **Strong portfolio signal** - Shows systematic learning and dedication
 
 ---
@@ -232,6 +277,12 @@ data-structures-and-algorithms/
 │       └── data-structures-cheatsheet.md
 │
 ├── phase-1-linear-data-structures/
+│   ├── notes/
+│   │   ├── introduction.md
+│   │   ├── arrays-guide.md
+│   │   ├── linked-lists-guide.md
+│   │   ├── stacks-guide.md
+│   │   └── queues-guide.md
 │   ├── arrays/
 │   ├── linked-lists/
 │   │   └── singlyLinkedList.js
@@ -245,11 +296,15 @@ data-structures-and-algorithms/
 │       └── priorityQueue.js
 │
 ├── phase-2-trees/
+│   ├── notes/
+│   │   └── introduction.md
 │   └── trees/
 │       ├── binaryTree.js
 │       └── AVLTree.js
 │
 ├── phase-3-hashing-sets/
+│   ├── notes/
+│   │   └── introduction.md
 │   ├── hash-tables/
 │   │   └── hashtable.js
 │   └── set-operations/
@@ -259,6 +314,8 @@ data-structures-and-algorithms/
 │       └── symmetricDifference.js
 │
 ├── phase-4-core-algorithms/
+│   ├── notes/
+│   │   └── introduction.md
 │   ├── searching/
 │   │   ├── bs.js
 │   │   ├── bs.py
@@ -273,18 +330,26 @@ data-structures-and-algorithms/
 │       └── README.md
 │
 ├── phase-5-recursion-patterns/
+│   ├── notes/
+│   │   └── introduction.md
 │   └── recursion/
 │       └── (coming soon)
 │
 ├── phase-6-dynamic-programming/
+│   ├── notes/
+│   │   └── introduction.md
 │   └── dynamic-programming/
 │       └── (coming soon)
 │
 ├── phase-7-graphs/
+│   ├── notes/
+│   │   └── introduction.md
 │   └── graphs/
 │       └── (coming soon)
 │
 ├── phase-8-practice-problems/
+│   ├── notes/
+│   │   └── introduction.md
 │   └── problems/
 │       ├── leetcode/
 │       ├── hackerrank/
