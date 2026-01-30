@@ -12,7 +12,7 @@ This document shows exactly how files from the original `algorithms/` and `data-
 **Destination:** `phase-4-core-algorithms/searching/`
 - `bs.js` → Binary Search (JavaScript)
 - `bs.py` → Binary Search (Python)
-- `bs.r` → Binary Search (R)
+- `bs.cs` → Binary Search (C#)
 - `README.md` → Documentation
 
 **Why Phase 4?** Core searching algorithms are fundamental skills needed before advanced topics.
@@ -150,7 +150,7 @@ This document shows exactly how files from the original `algorithms/` and `data-
 
 | Original Folder | Files | Phase | Destination |
 |----------------|-------|-------|-------------|
-| algorithms/searching/ | 4 files | Phase 4 | phase-4-core-algorithms/searching/ |
+| algorithms/searching/ | 4 files (JS, Python, C#) | Phase 4 | phase-4-core-algorithms/searching/ |
 | algorithms/sorting/ | 6 files | Phase 4 | phase-4-core-algorithms/sorting/ |
 | algorithms/greedy/ | 4 files | Phase 3 | phase-3-hashing-sets/set-operations/ |
 | algorithms/recursion/ | 0 files | Phase 5 | phase-5-recursion-patterns/recursion/ |

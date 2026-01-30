@@ -35,7 +35,7 @@ A comprehensive collection of data structures and algorithms implemented in Java
 - Quick Sort
 
 #### Searching
-- Binary Search (JS, Python, R)
+- Binary Search (JS, Python, C#)
 
 #### Other Categories
 - **Recursion** - Coming soon
@@ -115,7 +115,7 @@ This repository follows a phase-based learning path for mastering Data Structure
 
 **Searching**
 - [ ] Linear Search
-- [ ] Binary Search (JavaScript, Python, R)
+- [ ] Binary Search (JavaScript, Python, C#)
 
 **Sorting**
 - [ ] Bubble Sort
@@ -232,7 +232,7 @@ data-structures-and-algorithms/
 │   ├── searching/
 │   │   ├── bs.js
 │   │   ├── bs.py
-│   │   ├── bs.r
+│   │   ├── bs.cs
 │   │   └── README.md
 │   └── sorting/
 │       ├── bubblesort.js
