@@ -177,7 +177,6 @@ The goal of this repository is to build a deep understanding of Data Structures 
 **This project is suitable for:**
 - ✅ Interview preparation
 - ✅ Academic learning
-- ✅ Technical assessments
 - ✅ Self-study and revision
 
 ---
@@ -188,14 +187,21 @@ The goal of this repository is to build a deep understanding of Data Structures 
 - ✨ Beginner-friendly structure
 - ✨ Self-tracking via checklists
 - ✨ Strong portfolio signal for recruiters
-- ✅ Self-Study
 
-## 📁 Project Structure
+---
+
+## 📁 Project Structure (Phase-Based Organization)
 
 ```
 data-structures-and-algorithms/
 │
-├── data-structures/
+├── phase-0-foundations/
+│   └── notes/
+│       ├── time-complexity.md
+│       ├── patterns.md
+│       └── data-structures-cheatsheet.md
+│
+├── phase-1-linear-data-structures/
 │   ├── arrays/
 │   ├── linked-lists/
 │   │   └── singlyLinkedList.js
@@ -203,64 +209,101 @@ data-structures-and-algorithms/
 │   │   ├── arrayStack.js
 │   │   ├── linkedlistStack.js
 │   │   └── postfixCalc.js
-│   ├── queues/
-│   │   ├── arrayQueue.js
-│   │   ├── linkedlistQueue.js
-│   │   └── priorityQueue.js
-│   ├── trees/
-│   │   ├── AVLTree.js
-│   │   └── binaryTree.js
-│   ├── graphs/
-│   └── hash-tables/
-│       └── hashtable.js
+│   └── queues/
+│       ├── arrayQueue.js
+│       ├── linkedlistQueue.js
+│       └── priorityQueue.js
 │
-├── algorithms/
-│   ├── sorting/
-│   │   ├── bubblesort.js
-│   │   ├── insertionsort.js
-│   │   ├── mergesort.js
-│   │   ├── qs.js
-│   │   ├── ss.js
-│   │   └── README.md
+├── phase-2-trees/
+│   └── trees/
+│       ├── binaryTree.js
+│       └── AVLTree.js
+│
+├── phase-3-hashing-sets/
+│   ├── hash-tables/
+│   │   └── hashtable.js
+│   └── set-operations/
+│       ├── union.js
+│       ├── intersection.js
+│       ├── setDifference.js
+│       └── symmetricDifference.js
+│
+├── phase-4-core-algorithms/
 │   ├── searching/
 │   │   ├── bs.js
 │   │   ├── bs.py
 │   │   ├── bs.r
 │   │   └── README.md
-│   ├── recursion/
-│   ├── dynamic-programming/
-│   └── greedy/
-│       ├── intersection.js
-│       ├── setDifference.js
-│       ├── symmetricDifference.js
-│       └── union.js
+│   └── sorting/
+│       ├── bubblesort.js
+│       ├── insertionsort.js
+│       ├── mergesort.js
+│       ├── qs.js
+│       ├── ss.js
+│       └── README.md
 │
-├── problems/
-│   ├── leetcode/
-│   ├── hackerrank/
-│   └── custom-problems/
+├── phase-5-recursion-patterns/
+│   └── recursion/
+│       └── (coming soon)
 │
-├── notes/
-│   ├── data-structures-cheatsheet.md
-│   ├── patterns.md
-│   └── time-complexity.md
+├── phase-6-dynamic-programming/
+│   └── dynamic-programming/
+│       └── (coming soon)
+│
+├── phase-7-graphs/
+│   └── graphs/
+│       └── (coming soon)
+│
+├── phase-8-practice-problems/
+│   └── problems/
+│       ├── leetcode/
+│       ├── hackerrank/
+│       └── custom-problems/
 │
 └── README.md
 ```
 
+**Note:** Original folders (`data-structures/`, `algorithms/`, `problems/`, `notes/`) are kept for reference and backward compatibility.
+
+---
 
 ## 🚀 Getting Started
 
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/data-structures-and-algorithms.git
-cd data-structures-and-algorithms
+git clone https://github.com/tmothykhalayi/-2025PREPARATIONdata-structures-and-algorithms.git
+cd -2025PREPARATIONdata-structures-and-algorithms
 ```
+
+### Navigate by Phase
+
+Start with Phase 0 (Foundations):
+```bash
+cd phase-0-foundations/notes
+```
+
+Work through Phase 1 (Linear Data Structures):
+```bash
+cd phase-1-linear-data-structures
+```
+
+### Run Examples
 
 Run JavaScript files:
 ```bash
-node algorithms/sorting/bubblesort.js
+node phase-4-core-algorithms/sorting/bubblesort.js
 ```
+
+Run Python files:
+```bash
+python phase-4-core-algorithms/searching/bs.py
+```
+
+### Track Your Progress
+
+- ✅ Check off items in the roadmap as you complete them
+- 📝 Add your own notes in each phase folder
+- 🔄 Review previous phases regularly
 
 Run Python files:
 ```bash
