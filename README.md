@@ -50,7 +50,145 @@ A comprehensive collection of data structures and algorithms implemented in Java
 ### Notes
 - **[Time Complexity](notes/time-complexity.md)** - Big O notation reference
 - **[Patterns](notes/patterns.md)** - Common DSA patterns and strategies
+- **[Data Structures Cheatsheet](notes/data-structures-cheatsheet.md)** - Quick reference guide for data structures
 
+---
+
+## 🧭 Learning Roadmap & Progress Tracker
+
+This repository follows a phase-based learning path for mastering Data Structures and Algorithms, from fundamentals to advanced topics.
+
+**Use the checklist below to track progress as you learn and implement each concept.**
+
+---
+
+### 🔹 Phase 0: Foundations
+
+- [ ] Big O Notation
+- [ ] Time Complexity
+- [ ] Space Complexity
+
+📄 Reference: [notes/time-complexity.md](notes/time-complexity.md)
+
+---
+
+### 🔹 Phase 1: Linear Data Structures
+
+- [ ] Arrays
+- [ ] Linked Lists
+- [ ] Stack
+- [ ] Queue
+
+**Concepts covered:**
+- Memory layout
+- Insertions & deletions
+- LIFO & FIFO behavior
+
+---
+
+### 🔹 Phase 2: Trees (Non-Linear Data Structures)
+
+- [ ] Binary Trees
+- [ ] Binary Search Trees (BST)
+- [ ] AVL Trees
+- [ ] Tree Traversals
+  - [ ] Pre-order
+  - [ ] In-order
+  - [ ] Post-order
+
+---
+
+### 🔹 Phase 3: Hashing & Sets
+
+- [ ] Hash Tables
+- [ ] Hash Functions
+- [ ] Collision Handling
+- [ ] Set Operations
+  - [ ] Union
+  - [ ] Intersection
+  - [ ] Difference
+  - [ ] Symmetric Difference
+
+---
+
+### 🔹 Phase 4: Core Algorithms
+
+**Searching**
+- [ ] Linear Search
+- [ ] Binary Search (JavaScript, Python, R)
+
+**Sorting**
+- [ ] Bubble Sort
+- [ ] Selection Sort
+- [ ] Insertion Sort
+- [ ] Merge Sort
+- [ ] Quick Sort
+
+---
+
+### 🔹 Phase 5: Recursion & Problem-Solving Patterns
+
+- [ ] Recursion fundamentals
+- [ ] Divide and Conquer
+- [ ] Two Pointers
+- [ ] Sliding Window
+- [ ] Greedy Algorithms
+
+📄 Reference: [notes/patterns.md](notes/patterns.md)
+
+---
+
+### 🔹 Phase 6: Dynamic Programming
+
+- [ ] Memoization
+- [ ] Tabulation
+- [ ] Classic DP problems (Fibonacci, Coin Change, Knapsack)
+
+---
+
+### 🔹 Phase 7: Graphs (Coming Soon)
+
+- [ ] Graph Representation
+- [ ] Breadth-First Search (BFS)
+- [ ] Depth-First Search (DFS)
+- [ ] Real-world graph applications
+
+---
+
+### 🔹 Phase 8: Practice & Problem Solving
+
+- [ ] LeetCode Problems
+- [ ] HackerRank Problems
+- [ ] Custom Algorithm Challenges
+
+**💡 Recommended workflow:**
+Learn a concept → Implement it → Solve 5–10 problems
+
+---
+
+## 🎯 Project Goal
+
+The goal of this repository is to build a deep understanding of Data Structures and Algorithms, focusing on:
+
+- **When** to use each structure
+- **Why** one algorithm is better than another
+- Writing clean, efficient, and scalable solutions
+
+**This project is suitable for:**
+- ✅ Interview preparation
+- ✅ Academic learning
+- ✅ Technical assessments
+- ✅ Self-study and revision
+
+---
+
+## ⭐ Why This README Stands Out
+
+- ✨ Clear learning progression
+- ✨ Beginner-friendly structure
+- ✨ Self-tracking via checklists
+- ✨ Strong portfolio signal for recruiters
+- ✅ Self-Study
 
 ## 📁 Project Structure
 
@@ -82,11 +220,13 @@ data-structures-and-algorithms/
 │   │   ├── insertionsort.js
 │   │   ├── mergesort.js
 │   │   ├── qs.js
-│   │   └── ss.js
+│   │   ├── ss.js
+│   │   └── README.md
 │   ├── searching/
 │   │   ├── bs.js
 │   │   ├── bs.py
-│   │   └── bs.r
+│   │   ├── bs.r
+│   │   └── README.md
 │   ├── recursion/
 │   ├── dynamic-programming/
 │   └── greedy/
@@ -101,11 +241,13 @@ data-structures-and-algorithms/
 │   └── custom-problems/
 │
 ├── notes/
-│   ├── time-complexity.md
-│   └── patterns.md
+│   ├── data-structures-cheatsheet.md
+│   ├── patterns.md
+│   └── time-complexity.md
 │
 └── README.md
 ```
+
 
 ## 🚀 Getting Started
 

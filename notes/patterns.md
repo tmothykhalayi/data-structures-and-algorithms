@@ -1,22 +1,31 @@
-# Common Patterns in DSA
+# Common DSA Patterns
 
-## Sliding Window
-Used for problems involving arrays or strings where you need to find a contiguous subarray/substring.
+Understanding patterns helps you solve new problems faster.
+
+---
+
+## 1. Sliding Window
+Used when dealing with arrays or strings where you need to find a contiguous subarray/substring.
 
 **Common use cases:**
 - Maximum/minimum sum subarray
 - Longest substring without repeating characters
 - Anagrams in a string
 
-## Two Pointers
+---
+
+## 2. Two Pointers
 Use two pointers to traverse an array or list, often from different positions.
 
 **Common use cases:**
 - Pair with target sum
 - Remove duplicates
 - Palindrome checking
+- Reverse an array
 
-## Fast & Slow Pointers
+---
+
+## 3. Fast & Slow Pointers
 Two pointers move at different speeds through a data structure.
 
 **Common use cases:**
@@ -24,7 +33,9 @@ Two pointers move at different speeds through a data structure.
 - Finding middle of linked list
 - Palindrome linked list
 
-## Merge Intervals
+---
+
+## 4. Merge Intervals
 Deal with overlapping intervals.
 
 **Common use cases:**
@@ -32,7 +43,9 @@ Deal with overlapping intervals.
 - Insert interval
 - Meeting rooms
 
-## Cyclic Sort
+---
+
+## 5. Cyclic Sort
 Used when dealing with arrays containing numbers in a given range.
 
 **Common use cases:**
@@ -40,7 +53,9 @@ Used when dealing with arrays containing numbers in a given range.
 - Find duplicates
 - Find first k missing positive numbers
 
-## In-place Reversal of Linked List
+---
+
+## 6. In-place Reversal of Linked List
 Reverse parts or all of a linked list without using extra space.
 
 **Common use cases:**
@@ -48,7 +63,9 @@ Reverse parts or all of a linked list without using extra space.
 - Reverse sublist
 - Reverse k-element sublist
 
-## Tree BFS (Breadth-First Search)
+---
+
+## 7. Tree BFS (Breadth-First Search)
 Traverse a tree level by level using a queue.
 
 **Common use cases:**
@@ -56,15 +73,20 @@ Traverse a tree level by level using a queue.
 - Minimum depth
 - Connect level order siblings
 
-## Tree DFS (Depth-First Search)
+---
+
+## 8. Tree DFS (Depth-First Search)
 Traverse a tree using recursion or stack.
 
 **Common use cases:**
 - Sum of path numbers
 - All paths for a sum
 - Count paths for a sum
+- Tree traversal (pre-order, in-order, post-order)
 
-## Binary Search
+---
+
+## 9. Binary Search
 Search in a sorted array by repeatedly dividing the search space.
 
 **Common use cases:**
@@ -72,7 +94,9 @@ Search in a sorted array by repeatedly dividing the search space.
 - Find peak element
 - Search in rotated array
 
-## Top K Elements
+---
+
+## 10. Top K Elements
 Find top/smallest/most frequent k elements using heap.
 
 **Common use cases:**
@@ -80,8 +104,24 @@ Find top/smallest/most frequent k elements using heap.
 - K closest points
 - Top k frequent numbers
 
-## Dynamic Programming
-Break down problems into smaller subproblems and store results.
+---
+
+## 11. Divide and Conquer
+Break problem into smaller subproblems, solve independently, and combine results.
+
+**Example Algorithms:**
+- Merge Sort
+- Quick Sort
+- Binary Search
+
+---
+
+## 12. Dynamic Programming
+Break down problems into smaller subproblems and store results to avoid recomputation.
+
+**Key Properties:**
+- Optimal substructure
+- Overlapping subproblems
 
 **Common patterns:**
 - 0/1 Knapsack
@@ -91,7 +131,20 @@ Break down problems into smaller subproblems and store results.
 - Longest Increasing Subsequence
 - Edit Distance
 
-## Backtracking
+---
+
+## 13. Greedy
+Make the locally optimal choice at each step with the hope of finding a global optimum.
+
+**Common use cases:**
+- Coin change
+- Activity selection
+- Minimum spanning tree
+- Set operations (union, intersection, difference)
+
+---
+
+## 14. Backtracking
 Build solutions incrementally and abandon them if they don't satisfy constraints.
 
 **Common use cases:**
@@ -99,3 +152,15 @@ Build solutions incrementally and abandon them if they don't satisfy constraints
 - Permutations
 - Combination sum
 - N-Queens
+
+---
+
+## 15. Recursion
+Function calls itself to solve smaller instances of the same problem.
+
+**Common uses:**
+- Tree traversal
+- Factorial calculation
+- Fibonacci sequence
+- Divide and conquer algorithms
+
