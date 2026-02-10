@@ -1,6 +1,270 @@
 # Complete Phase Mapping Guide
 
-This document shows exactly how files from the original `algorithms/` and `data-structures/` folders are organized into learning phases.
+This document shows how the repository is organized into learning phases for optimal progression.
+
+---
+
+## 📂 Phase-Based Learning Structure
+
+The repository uses a **single, clean phase-based structure** to organize all content. This eliminates redundancy and provides a clear learning path.
+
+---
+
+## 🎓 Phase Overview
+
+### Phase 0: Foundations
+**Location:** `phase-0-foundations/notes/`
+
+Core theoretical knowledge needed before coding:
+- `introduction.md` - Welcome and overview
+- `big-o-guide.md` - Time and space complexity
+- `time-complexity.md` - Big O notation deep dive
+- `patterns.md` - Common DSA patterns
+- `data-structures-cheatsheet.md` - Quick reference
+- `algorithm-design-strategies.md` - Design approaches
+- `problem-solving-approach.md` - How to solve problems
+- `recursion-basics.md` - Recursion fundamentals
+- `debugging-and-testing.md` - Testing strategies
+- `code-optimization-techniques.md` - Optimization tips
+
+**Focus:** Understanding complexity, patterns, and problem-solving strategies
+
+---
+
+### Phase 1: Linear Data Structures
+**Location:** `phase-1-linear-data-structures/`
+
+**Arrays:** `arrays/` (ready for implementations)
+**Linked Lists:** `linked-lists/singlyLinkedList.js`
+**Stacks:**
+- `stacks/arrayStack.js` - Array-based implementation
+- `stacks/linkedlistStack.js` - Linked list-based implementation
+- `stacks/postfixCalc.js` - Practical application
+
+**Queues:**
+- `queues/arrayQueue.js` - Array-based implementation
+- `queues/linkedlistQueue.js` - Linked list-based implementation
+- `queues/priorityQueue.js` - Priority queue
+
+**Notes:**
+- `notes/introduction.md`
+- `notes/arrays-guide.md`
+- `notes/linked-lists-guide.md`
+- `notes/stacks-guide.md`
+- `notes/queues-guide.md`
+
+**Focus:** LIFO, FIFO, sequential access patterns
+
+---
+
+### Phase 2: Trees
+**Location:** `phase-2-trees/`
+
+**Implementations:**
+- `trees/binaryTree.js` - Basic binary tree
+- `trees/AVLTree.js` - Self-balancing AVL tree
+
+**Notes:**
+- `notes/introduction.md` - Tree concepts and traversals
+
+**Focus:** Hierarchical structures, recursion, tree traversals
+
+---
+
+### Phase 3: Hashing & Sets
+**Location:** `phase-3-hashing-sets/`
+
+**Hash Tables:**
+- `hash-tables/hashtable.js` - Hash table implementation
+
+**Set Operations:**
+- `set-operations/union.js` - Set union
+- `set-operations/intersection.js` - Set intersection
+- `set-operations/setDifference.js` - Set difference
+- `set-operations/symmetricDifference.js` - Symmetric difference
+
+**Notes:**
+- `notes/introduction.md` - Hashing concepts
+
+**Focus:** O(1) lookups, collision handling, set theory
+
+---
+
+### Phase 4: Core Algorithms
+**Location:** `phase-4-core-algorithms/`
+
+**Searching:**
+- `searching/bs.js` - Binary search (JavaScript)
+- `searching/bs.py` - Binary search (Python)
+- `searching/bs.cs` - Binary search (C#)
+- `searching/README.md` - Documentation
+
+**Sorting:**
+- `sorting/bubblesort.js` - Bubble sort
+- `sorting/insertionsort.js` - Insertion sort
+- `sorting/mergesort.js` - Merge sort
+- `sorting/qs.js` - Quick sort
+- `sorting/ss.js` - Selection sort
+- `sorting/README.md` - Documentation
+
+**Notes:**
+- `notes/introduction.md` - Algorithm fundamentals
+
+**Focus:** Search efficiency, sorting strategies, divide-and-conquer
+
+---
+
+### Phase 5: Recursion Patterns
+**Location:** `phase-5-recursion-patterns/`
+
+**Structure:**
+- `recursion/` - Ready for recursion implementations
+- `notes/introduction.md` - Recursion patterns
+
+**Focus:** Recursive thinking, base cases, backtracking
+
+---
+
+### Phase 6: Dynamic Programming
+**Location:** `phase-6-dynamic-programming/`
+
+**Structure:**
+- `dynamic-programming/` - Ready for DP implementations
+- `notes/` - Ready for DP theory
+
+**Focus:** Memoization, tabulation, optimal substructure
+
+---
+
+### Phase 7: Graphs
+**Location:** `phase-7-graphs/`
+
+**Structure:**
+- `graphs/` - Ready for graph implementations
+- `notes/` - Ready for graph theory
+
+**Focus:** Graph traversals (BFS/DFS), shortest paths, minimum spanning trees
+
+---
+
+### Phase 8: Practice & Problem Solving
+**Location:** `phase-8-practice-problems/`
+
+**Structure:**
+- `problems/` - Practice problems directory
+- `notes/` - Problem-solving notes
+
+**Additional Problems Location:**
+Root-level `problems/` folder contains:
+- `leetcode/` - LeetCode solutions
+- `hackerrank/` - HackerRank solutions
+- `custom-problems/` - Custom challenges
+
+**Focus:** Applying all learned concepts to real problems
+
+---
+
+## 📊 Content Summary
+
+| Phase | Topic | Files | Status |
+|-------|-------|-------|--------|
+| Phase 0 | Foundations | 10 theory files | ✅ Complete |
+| Phase 1 | Linear DS | 7 implementations | ✅ Complete |
+| Phase 2 | Trees | 2 implementations | ✅ Complete |
+| Phase 3 | Hashing & Sets | 5 implementations | ✅ Complete |
+| Phase 4 | Core Algorithms | 10 implementations | ✅ Complete |
+| Phase 5 | Recursion | 0 implementations | 🔜 Ready |
+| Phase 6 | Dynamic Programming | 0 implementations | 🔜 Ready |
+| Phase 7 | Graphs | 0 implementations | 🔜 Ready |
+| Phase 8 | Practice | 3 folders | ✅ Complete |
+
+**Total Implementations: 34 files**
+
+---
+
+## 🎯 Recommended Learning Path
+
+### 1. Start with Phase 0
+Read all theory files to understand:
+- How to analyze time/space complexity
+- Common patterns and when to use them
+- Problem-solving strategies
+
+### 2. Progress Through Phases 1-4
+Master the fundamentals:
+- Implement and understand each data structure
+- Practice with each algorithm
+- Complete exercises for each topic
+
+### 3. Advance to Phases 5-7
+Tackle complex topics:
+- Build strong recursion skills
+- Master dynamic programming
+- Understand graph algorithms
+
+### 4. Practice in Phase 8
+Apply everything:
+- Solve problems from multiple platforms
+- Focus on problem patterns
+- Time yourself to build speed
+
+---
+
+## 📝 Adding New Content
+
+When adding new implementations:
+
+### 1. Identify the Right Phase
+- Arrays, Linked Lists, Stacks, Queues → Phase 1
+- Trees, BST, AVL, Heap → Phase 2
+- Hash Tables, Sets → Phase 3
+- Searching, Sorting → Phase 4
+- Recursion, Backtracking → Phase 5
+- DP, Memoization → Phase 6
+- Graphs, BFS, DFS, Dijkstra → Phase 7
+- LeetCode, practice → Phase 8
+
+### 2. Add to the Appropriate Folder
+```bash
+# Example: Adding graph implementation
+phase-7-graphs/graphs/dijkstra.js
+
+# Example: Adding recursion problem
+phase-5-recursion-patterns/recursion/factorial.js
+```
+
+### 3. Update Documentation
+- Add entry to phase's `notes/introduction.md`
+- Update this mapping guide if needed
+
+---
+
+## ✅ Structure Benefits
+
+✅ **Single Source of Truth** - Each file exists in exactly one location
+✅ **Clear Learning Path** - Follow phases sequentially
+✅ **Easy Maintenance** - Update files in one place only
+✅ **Gradual Complexity** - Each phase builds on previous knowledge
+✅ **Organized by Pedagogy** - Structure optimized for learning
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# Clone and navigate
+cd data-structures-and-algorithms
+
+# Start learning from Phase 0
+cd phase-0-foundations/notes
+# Read all .md files
+
+# Move to Phase 1
+cd ../../phase-1-linear-data-structures
+# Study and implement linear structures
+
+# Continue through all phases...
+```
 
 ---
 
