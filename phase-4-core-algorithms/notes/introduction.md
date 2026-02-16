@@ -5,7 +5,6 @@
 Master the fundamental algorithms that form the foundation of computer science: sorting and searching. These algorithms are essential for technical interviews and real-world applications.
 
 ---
-
 ## What You'll Learn
 
 ### 1. **Searching Algorithms**

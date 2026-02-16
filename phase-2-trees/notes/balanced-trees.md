@@ -1,5 +1,6 @@
 # Balanced Trees Guide
 
+
 ## Why Balanced Trees?
 
 Regular binary search trees can become **unbalanced** and degrade to O(n) operations.
