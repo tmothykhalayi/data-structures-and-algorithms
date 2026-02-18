@@ -4,6 +4,7 @@
 
 An array is a collection of elements stored in contiguous memory locations. Each element can be accessed directly using its index.
 
+
 ```javascript
 // Array in memory
 [10, 20, 30, 40, 50]

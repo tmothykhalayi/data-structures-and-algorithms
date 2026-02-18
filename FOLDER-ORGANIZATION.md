@@ -4,6 +4,7 @@ This document explains how the repository is organized by learning phases.
 
 ## 📂 Phase-Based Structure
 
+
 ### ✅ Phase 0: Foundations
 **Location:** `phase-0-foundations/`
 - `notes/time-complexity.md` - Big O notation and complexity analysis
